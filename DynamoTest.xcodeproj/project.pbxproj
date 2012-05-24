@@ -13,19 +13,68 @@
 		C738EC41156DC6DB000A3E2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C738EC3F156DC6DB000A3E2F /* InfoPlist.strings */; };
 		C738EC43156DC6DB000A3E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C738EC42156DC6DB000A3E2F /* main.m */; };
 		C738EC47156DC6DB000A3E2F /* DTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C738EC46156DC6DB000A3E2F /* DTAppDelegate.m */; };
+		C738EC4E156DC7A6000A3E2F /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = C738EC4D156DC7A6000A3E2F /* Scripts */; };
+		C738EC51156DC83F000A3E2F /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C738EC50156DC83F000A3E2F /* DViewController.m */; };
+		C738EC6F156DC892000A3E2F /* libdynamo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C738EC69156DC882000A3E2F /* libdynamo.a */; };
+		C7CEC937156DCE98004B8D6C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEC936156DCE98004B8D6C /* GLKit.framework */; };
+		C7CEC939156DCEA0004B8D6C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEC938156DCEA0004B8D6C /* Accelerate.framework */; };
+		C7CEC93B156DCEAD004B8D6C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEC93A156DCEAD004B8D6C /* OpenGLES.framework */; };
+		C7CEC93D156DCED3004B8D6C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEC93C156DCED3004B8D6C /* AudioToolbox.framework */; };
+		C7CEC93F156DCED9004B8D6C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEC93E156DCED9004B8D6C /* OpenAL.framework */; };
+		C7CEC941156DCEE1004B8D6C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEC940156DCEE1004B8D6C /* libz.dylib */; };
+		C7CEC943156DCEE8004B8D6C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CEC942156DCEE8004B8D6C /* AVFoundation.framework */; };
+		C7CEC946156DCF45004B8D6C /* DynamoScripts in Resources */ = {isa = PBXBuildFile; fileRef = C7CEC945156DCF45004B8D6C /* DynamoScripts */; };
+		C7CEC948156DCF4A004B8D6C /* DynamoShaders in Resources */ = {isa = PBXBuildFile; fileRef = C7CEC947156DCF4A004B8D6C /* DynamoShaders */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C738EC68156DC882000A3E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C738EC52156DC882000A3E2F /* Dynamo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C75AFCF0153FA9F500FE8623;
+			remoteInfo = "Dynamo - iOS";
+		};
+		C738EC6A156DC882000A3E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C738EC52156DC882000A3E2F /* Dynamo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C78B8DE81558A6ED00B8E5CE;
+			remoteInfo = "Dynamo - Mac";
+		};
+		C738EC6D156DC88E000A3E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C738EC52156DC882000A3E2F /* Dynamo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C75AFCEF153FA9F500FE8623;
+			remoteInfo = "Dynamo - iOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C738EC32156DC6DB000A3E2F /* DynamoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C738EC36156DC6DB000A3E2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C738EC38156DC6DB000A3E2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C738EC3A156DC6DB000A3E2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C738EC3E156DC6DB000A3E2F /* DynamoTest-Info.plist */ = {isa = PBXFileReference; path = "DynamoTest-Info.plist"; sourceTree = "<group>"; };
+		C738EC3E156DC6DB000A3E2F /* DynamoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamoTest-Info.plist"; sourceTree = "<group>"; };
 		C738EC40156DC6DB000A3E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C738EC42156DC6DB000A3E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C738EC44156DC6DB000A3E2F /* DynamoTest-Prefix.pch */ = {isa = PBXFileReference; path = "DynamoTest-Prefix.pch"; sourceTree = "<group>"; };
-		C738EC45156DC6DB000A3E2F /* DTAppDelegate.h */ = {isa = PBXFileReference; path = DTAppDelegate.h; sourceTree = "<group>"; };
+		C738EC44156DC6DB000A3E2F /* DynamoTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamoTest-Prefix.pch"; sourceTree = "<group>"; };
+		C738EC45156DC6DB000A3E2F /* DTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTAppDelegate.h; sourceTree = "<group>"; };
 		C738EC46156DC6DB000A3E2F /* DTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAppDelegate.m; sourceTree = "<group>"; };
+		C738EC4D156DC7A6000A3E2F /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
+		C738EC4F156DC83F000A3E2F /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DViewController.h; path = Dynamo/Glue/iOS/DViewController.h; sourceTree = SOURCE_ROOT; };
+		C738EC50156DC83F000A3E2F /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DViewController.m; path = Dynamo/Glue/iOS/DViewController.m; sourceTree = SOURCE_ROOT; };
+		C738EC52156DC882000A3E2F /* Dynamo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Dynamo.xcodeproj; path = Dynamo/Dynamo.xcodeproj; sourceTree = "<group>"; };
+		C7CEC936156DCE98004B8D6C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C7CEC938156DCEA0004B8D6C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C7CEC93A156DCEAD004B8D6C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C7CEC93C156DCED3004B8D6C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C7CEC93E156DCED9004B8D6C /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		C7CEC940156DCEE1004B8D6C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C7CEC942156DCEE8004B8D6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C7CEC945156DCF45004B8D6C /* DynamoScripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DynamoScripts; path = Dynamo/DynamoScripts; sourceTree = "<group>"; };
+		C7CEC947156DCF4A004B8D6C /* DynamoShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DynamoShaders; path = Dynamo/DynamoShaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +82,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CEC943156DCEE8004B8D6C /* AVFoundation.framework in Frameworks */,
+				C7CEC941156DCEE1004B8D6C /* libz.dylib in Frameworks */,
+				C7CEC93F156DCED9004B8D6C /* OpenAL.framework in Frameworks */,
+				C7CEC93D156DCED3004B8D6C /* AudioToolbox.framework in Frameworks */,
+				C7CEC93B156DCEAD004B8D6C /* OpenGLES.framework in Frameworks */,
+				C7CEC939156DCEA0004B8D6C /* Accelerate.framework in Frameworks */,
+				C7CEC937156DCE98004B8D6C /* GLKit.framework in Frameworks */,
+				C738EC6F156DC892000A3E2F /* libdynamo.a in Frameworks */,
 				C738EC37156DC6DB000A3E2F /* UIKit.framework in Frameworks */,
 				C738EC39156DC6DB000A3E2F /* Foundation.framework in Frameworks */,
 				C738EC3B156DC6DB000A3E2F /* CoreGraphics.framework in Frameworks */,
@@ -46,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C738EC3C156DC6DB000A3E2F /* DynamoTest */,
+				C7CEC944156DCF29004B8D6C /* Dynamo */,
 				C738EC35156DC6DB000A3E2F /* Frameworks */,
 				C738EC33156DC6DB000A3E2F /* Products */,
 			);
@@ -62,6 +120,13 @@
 		C738EC35156DC6DB000A3E2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7CEC942156DCEE8004B8D6C /* AVFoundation.framework */,
+				C7CEC940156DCEE1004B8D6C /* libz.dylib */,
+				C7CEC93E156DCED9004B8D6C /* OpenAL.framework */,
+				C7CEC93C156DCED3004B8D6C /* AudioToolbox.framework */,
+				C7CEC93A156DCEAD004B8D6C /* OpenGLES.framework */,
+				C7CEC938156DCEA0004B8D6C /* Accelerate.framework */,
+				C7CEC936156DCE98004B8D6C /* GLKit.framework */,
 				C738EC36156DC6DB000A3E2F /* UIKit.framework */,
 				C738EC38156DC6DB000A3E2F /* Foundation.framework */,
 				C738EC3A156DC6DB000A3E2F /* CoreGraphics.framework */,
@@ -74,6 +139,8 @@
 			children = (
 				C738EC45156DC6DB000A3E2F /* DTAppDelegate.h */,
 				C738EC46156DC6DB000A3E2F /* DTAppDelegate.m */,
+				C738EC4F156DC83F000A3E2F /* DViewController.h */,
+				C738EC50156DC83F000A3E2F /* DViewController.m */,
 				C738EC3D156DC6DB000A3E2F /* Supporting Files */,
 			);
 			path = DynamoTest;
@@ -82,12 +149,32 @@
 		C738EC3D156DC6DB000A3E2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C738EC4D156DC7A6000A3E2F /* Scripts */,
 				C738EC3E156DC6DB000A3E2F /* DynamoTest-Info.plist */,
 				C738EC3F156DC6DB000A3E2F /* InfoPlist.strings */,
 				C738EC42156DC6DB000A3E2F /* main.m */,
 				C738EC44156DC6DB000A3E2F /* DynamoTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C738EC53156DC882000A3E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C738EC69156DC882000A3E2F /* libdynamo.a */,
+				C738EC6B156DC882000A3E2F /* Dynamo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7CEC944156DCF29004B8D6C /* Dynamo */ = {
+			isa = PBXGroup;
+			children = (
+				C738EC52156DC882000A3E2F /* Dynamo.xcodeproj */,
+				C7CEC947156DCF4A004B8D6C /* DynamoShaders */,
+				C7CEC945156DCF45004B8D6C /* DynamoScripts */,
+			);
+			name = Dynamo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +191,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C738EC6E156DC88E000A3E2F /* PBXTargetDependency */,
 			);
 			name = DynamoTest;
 			productName = DynamoTest;
@@ -129,6 +217,12 @@
 			mainGroup = C738EC27156DC6DB000A3E2F;
 			productRefGroup = C738EC33156DC6DB000A3E2F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C738EC53156DC882000A3E2F /* Products */;
+					ProjectRef = C738EC52156DC882000A3E2F /* Dynamo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C738EC31156DC6DB000A3E2F /* DynamoTest */,
@@ -136,12 +230,32 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C738EC69156DC882000A3E2F /* libdynamo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdynamo.a;
+			remoteRef = C738EC68156DC882000A3E2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C738EC6B156DC882000A3E2F /* Dynamo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Dynamo.framework;
+			remoteRef = C738EC6A156DC882000A3E2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		C738EC30156DC6DB000A3E2F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C738EC41156DC6DB000A3E2F /* InfoPlist.strings in Resources */,
+				C738EC4E156DC7A6000A3E2F /* Scripts in Resources */,
+				C7CEC948156DCF4A004B8D6C /* DynamoShaders in Resources */,
+				C7CEC946156DCF45004B8D6C /* DynamoScripts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,10 +268,19 @@
 			files = (
 				C738EC43156DC6DB000A3E2F /* main.m in Sources */,
 				C738EC47156DC6DB000A3E2F /* DTAppDelegate.m in Sources */,
+				C738EC51156DC83F000A3E2F /* DViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C738EC6E156DC88E000A3E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Dynamo - iOS";
+			targetProxy = C738EC6D156DC88E000A3E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C738EC3F156DC6DB000A3E2F /* InfoPlist.strings */ = {
@@ -184,11 +307,11 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"DYNAMO_DEBUG=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
@@ -203,9 +326,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -219,7 +341,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DynamoTest/DynamoTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/include",
+					Dynamo/Dependencies,
+				);
 				INFOPLIST_FILE = "DynamoTest/DynamoTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(BUILT_PRODUCTS_DIR)/libdynamo.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -230,7 +360,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DynamoTest/DynamoTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/include",
+					Dynamo/Dependencies,
+				);
 				INFOPLIST_FILE = "DynamoTest/DynamoTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(BUILT_PRODUCTS_DIR)/libdynamo.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -255,6 +393,7 @@
 				C738EC4C156DC6DB000A3E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

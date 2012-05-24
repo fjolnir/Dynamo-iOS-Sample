@@ -1,0 +1,3 @@
+[submodule "Dynamo"]
+	path = Dynamo
+	url = git://github.com/aptiva/Dynamo.git
