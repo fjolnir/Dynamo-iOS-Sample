@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C738EC37156DC6DB000A3E2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C738EC36156DC6DB000A3E2F /* UIKit.framework */; };
+		C738EC39156DC6DB000A3E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C738EC38156DC6DB000A3E2F /* Foundation.framework */; };
+		C738EC3B156DC6DB000A3E2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C738EC3A156DC6DB000A3E2F /* CoreGraphics.framework */; };
+		C738EC41156DC6DB000A3E2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C738EC3F156DC6DB000A3E2F /* InfoPlist.strings */; };
+		C738EC43156DC6DB000A3E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C738EC42156DC6DB000A3E2F /* main.m */; };
+		C738EC47156DC6DB000A3E2F /* DTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C738EC46156DC6DB000A3E2F /* DTAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C738EC32156DC6DB000A3E2F /* DynamoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C738EC36156DC6DB000A3E2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C738EC38156DC6DB000A3E2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C738EC3A156DC6DB000A3E2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C738EC3E156DC6DB000A3E2F /* DynamoTest-Info.plist */ = {isa = PBXFileReference; path = "DynamoTest-Info.plist"; sourceTree = "<group>"; };
+		C738EC40156DC6DB000A3E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C738EC42156DC6DB000A3E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C738EC44156DC6DB000A3E2F /* DynamoTest-Prefix.pch */ = {isa = PBXFileReference; path = "DynamoTest-Prefix.pch"; sourceTree = "<group>"; };
+		C738EC45156DC6DB000A3E2F /* DTAppDelegate.h */ = {isa = PBXFileReference; path = DTAppDelegate.h; sourceTree = "<group>"; };
+		C738EC46156DC6DB000A3E2F /* DTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C738EC2F156DC6DB000A3E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C738EC37156DC6DB000A3E2F /* UIKit.framework in Frameworks */,
+				C738EC39156DC6DB000A3E2F /* Foundation.framework in Frameworks */,
+				C738EC3B156DC6DB000A3E2F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C738EC27156DC6DB000A3E2F = {
+			isa = PBXGroup;
+			children = (
+				C738EC3C156DC6DB000A3E2F /* DynamoTest */,
+				C738EC35156DC6DB000A3E2F /* Frameworks */,
+				C738EC33156DC6DB000A3E2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C738EC33156DC6DB000A3E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C738EC32156DC6DB000A3E2F /* DynamoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C738EC35156DC6DB000A3E2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C738EC36156DC6DB000A3E2F /* UIKit.framework */,
+				C738EC38156DC6DB000A3E2F /* Foundation.framework */,
+				C738EC3A156DC6DB000A3E2F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C738EC3C156DC6DB000A3E2F /* DynamoTest */ = {
+			isa = PBXGroup;
+			children = (
+				C738EC45156DC6DB000A3E2F /* DTAppDelegate.h */,
+				C738EC46156DC6DB000A3E2F /* DTAppDelegate.m */,
+				C738EC3D156DC6DB000A3E2F /* Supporting Files */,
+			);
+			path = DynamoTest;
+			sourceTree = "<group>";
+		};
+		C738EC3D156DC6DB000A3E2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C738EC3E156DC6DB000A3E2F /* DynamoTest-Info.plist */,
+				C738EC3F156DC6DB000A3E2F /* InfoPlist.strings */,
+				C738EC42156DC6DB000A3E2F /* main.m */,
+				C738EC44156DC6DB000A3E2F /* DynamoTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C738EC31156DC6DB000A3E2F /* DynamoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C738EC4A156DC6DB000A3E2F /* Build configuration list for PBXNativeTarget "DynamoTest" */;
+			buildPhases = (
+				C738EC2E156DC6DB000A3E2F /* Sources */,
+				C738EC2F156DC6DB000A3E2F /* Frameworks */,
+				C738EC30156DC6DB000A3E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamoTest;
+			productName = DynamoTest;
+			productReference = C738EC32156DC6DB000A3E2F /* DynamoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C738EC29156DC6DB000A3E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C738EC2C156DC6DB000A3E2F /* Build configuration list for PBXProject "DynamoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C738EC27156DC6DB000A3E2F;
+			productRefGroup = C738EC33156DC6DB000A3E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C738EC31156DC6DB000A3E2F /* DynamoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C738EC30156DC6DB000A3E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C738EC41156DC6DB000A3E2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C738EC2E156DC6DB000A3E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C738EC43156DC6DB000A3E2F /* main.m in Sources */,
+				C738EC47156DC6DB000A3E2F /* DTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C738EC3F156DC6DB000A3E2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C738EC40156DC6DB000A3E2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C738EC48156DC6DB000A3E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C738EC49156DC6DB000A3E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C738EC4B156DC6DB000A3E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamoTest/DynamoTest-Prefix.pch";
+				INFOPLIST_FILE = "DynamoTest/DynamoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C738EC4C156DC6DB000A3E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamoTest/DynamoTest-Prefix.pch";
+				INFOPLIST_FILE = "DynamoTest/DynamoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C738EC2C156DC6DB000A3E2F /* Build configuration list for PBXProject "DynamoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C738EC48156DC6DB000A3E2F /* Debug */,
+				C738EC49156DC6DB000A3E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C738EC4A156DC6DB000A3E2F /* Build configuration list for PBXNativeTarget "DynamoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C738EC4B156DC6DB000A3E2F /* Debug */,
+				C738EC4C156DC6DB000A3E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C738EC29156DC6DB000A3E2F /* Project object */;
+}
